@@ -116,7 +116,7 @@ Normalize our dataset.
 
 <H3>Program:</H3> 
 
-```
+```python
 import pandas as pd
 import sklearn
 from sklearn import preprocessing
@@ -154,8 +154,9 @@ print(predictions)
 # Last thing: evaluation of algorithm performance in classifying flowers
 print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
-```
-```
+
+
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -182,8 +183,9 @@ print(classification_report(testing_b,predicted_values))
 ```
 <H3>Output:</H3>
 
-![OUTPUT](,1.png)
-![OUTPUT](,3.png)
+![alt text](IMAGES/NN1.png)
+
+![alt text](IMAGES/NN2.png)
 
 <H3>Result:</H3>
 Thus, MLP is implemented for multi-classification using python.
